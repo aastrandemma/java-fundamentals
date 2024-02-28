@@ -12,8 +12,8 @@ public class CalculationInput {
 
         System.out.println(first + " + " + second + " = " + CalculationInput.addition(first,second));
         System.out.println(first + " * " + second + " = " +  CalculationInput.multiplication(first,second));
-        System.out.println( first + " / " + second + " = " + CalculationInput.division(first,second));
-        System.out.println( first + " - " + second + " = " + CalculationInput.subtraction(first,second));
+        System.out.println(first + " / " + second + " = " + CalculationInput.division(first,second));
+        System.out.println(first + " - " + second + " = " + CalculationInput.subtraction(first,second));
     }
     private static int addition(int first, int second){
         return first + second;
